@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C011E99C-7DF6-438E-B6C0-B4E6D34B1430"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35B869FC-FB4C-4572-B69E-50CE056635FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Netflix/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getPopularMoviesData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "35B869FC-FB4C-4572-B69E-50CE056635FC - cd21f715926b6595"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Netflix.API.getPopularMoviesData(completion: (Swift.Result&lt;Netflix.MoviesData, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Netflix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ec2-user/Documents/Netflix/Netflix/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "359">
+               </Location>
+               <Location
+                  uuid = "35B869FC-FB4C-4572-B69E-50CE056635FC - cd21f715926b6595"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Netflix.API.getPopularMoviesData(completion: (Swift.Result&lt;Netflix.MoviesData, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Netflix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ec2-user/Documents/Netflix/Netflix/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "430">
+               </Location>
+               <Location
+                  uuid = "35B869FC-FB4C-4572-B69E-50CE056635FC - cd21f715926b6595"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Netflix.API.getPopularMoviesData(completion: (Swift.Result&lt;Netflix.MoviesData, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Netflix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ec2-user/Documents/Netflix/Netflix/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1933">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31543E07-6D78-4E21-B865-73A7B80DF203"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Netflix/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "getPopularMoviesData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "31543E07-6D78-4E21-B865-73A7B80DF203 - eff4fb2ab8ec03e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Netflix.API.getPopularMoviesData(completion: (Swift.Result&lt;Netflix.MoviesData, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Netflix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ec2-user/Documents/Netflix/Netflix/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "31543E07-6D78-4E21-B865-73A7B80DF203 - eff4fb2ab8ec03e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Netflix.API.getPopularMoviesData(completion: (Swift.Result&lt;Netflix.MoviesData, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Netflix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ec2-user/Documents/Netflix/Netflix/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "346">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34F3BAB9-0686-4BF5-AE82-028764EE0B76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Netflix/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "getPopularMoviesData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5899F2EC-D88B-44F0-AB5E-AEF4DE41D8AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Netflix/MovieTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getImageDataFrom(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C16076A-187E-4867-B397-51F58DEEE1BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Netflix/MovieTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "updateUI(title:releaseDate:rating:poster:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "635EB502-9B5E-4CCD-A14A-3C6F0AC69E5E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Netflix/MovieTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "updateUI(title:releaseDate:rating:poster:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E7FC448-DA44-4344-91BF-947C1E4EE309"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Netflix/MovieTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "updateUI(title:releaseDate:rating:poster:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

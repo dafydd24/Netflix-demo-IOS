@@ -16,6 +16,12 @@
 		57FF2FF92A9FEDCE00F09615 /* NetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF2FF82A9FEDCE00F09615 /* NetflixTests.swift */; };
 		57FF30032A9FEDCE00F09615 /* NetflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF30022A9FEDCE00F09615 /* NetflixUITests.swift */; };
 		57FF30052A9FEDCE00F09615 /* NetflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF30042A9FEDCE00F09615 /* NetflixUITestsLaunchTests.swift */; };
+		57FF30162A9FF3DD00F09615 /* DetailMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF30152A9FF3DD00F09615 /* DetailMovieVC.swift */; };
+		57FF30182A9FF3FD00F09615 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF30172A9FF3FD00F09615 /* API.swift */; };
+		57FF301A2A9FF95700F09615 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF30192A9FF95700F09615 /* HomeVC.swift */; };
+		57FF301C2A9FFC8D00F09615 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF301B2A9FFC8D00F09615 /* Model.swift */; };
+		57FF301E2AA00A7000F09615 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF301D2AA00A7000F09615 /* MovieTableViewCell.swift */; };
+		57FF30202AA011DF00F09615 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF301F2AA011DF00F09615 /* MovieViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		57FF2FFE2A9FEDCE00F09615 /* NetflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FF30022A9FEDCE00F09615 /* NetflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixUITests.swift; sourceTree = "<group>"; };
 		57FF30042A9FEDCE00F09615 /* NetflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57FF30152A9FF3DD00F09615 /* DetailMovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieVC.swift; sourceTree = "<group>"; };
+		57FF30172A9FF3FD00F09615 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		57FF30192A9FF95700F09615 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		57FF301B2A9FFC8D00F09615 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		57FF301D2AA00A7000F09615 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		57FF301F2AA011DF00F09615 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				57FF2FEA2A9FEDCE00F09615 /* Assets.xcassets */,
 				57FF2FEC2A9FEDCE00F09615 /* LaunchScreen.storyboard */,
 				57FF2FEF2A9FEDCE00F09615 /* Info.plist */,
+				57FF30152A9FF3DD00F09615 /* DetailMovieVC.swift */,
+				57FF30172A9FF3FD00F09615 /* API.swift */,
+				57FF30192A9FF95700F09615 /* HomeVC.swift */,
+				57FF301B2A9FFC8D00F09615 /* Model.swift */,
+				57FF301D2AA00A7000F09615 /* MovieTableViewCell.swift */,
+				57FF301F2AA011DF00F09615 /* MovieViewModel.swift */,
 			);
 			path = Netflix;
 			sourceTree = "<group>";
@@ -258,8 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FF301C2A9FFC8D00F09615 /* Model.swift in Sources */,
+				57FF30162A9FF3DD00F09615 /* DetailMovieVC.swift in Sources */,
 				57FF2FE62A9FEDCD00F09615 /* ViewController.swift in Sources */,
 				57FF2FE22A9FEDCD00F09615 /* AppDelegate.swift in Sources */,
+				57FF301A2A9FF95700F09615 /* HomeVC.swift in Sources */,
+				57FF30202AA011DF00F09615 /* MovieViewModel.swift in Sources */,
+				57FF30182A9FF3FD00F09615 /* API.swift in Sources */,
+				57FF301E2AA00A7000F09615 /* MovieTableViewCell.swift in Sources */,
 				57FF2FE42A9FEDCD00F09615 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +464,7 @@
 				DEVELOPMENT_TEAM = L8U5L5YABA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netflix/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Netflix;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +493,7 @@
 				DEVELOPMENT_TEAM = L8U5L5YABA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netflix/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Netflix;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
